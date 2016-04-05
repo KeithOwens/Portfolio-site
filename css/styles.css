@@ -1,0 +1,150 @@
+
+body
+{
+	font: normal bold 4em "Oxygen", sans-serif;
+	color: #747704;
+}
+
+p
+{
+	font: normal normal 0.25em "Oxygen", sans-serif;
+	margin-top: 1px;
+}
+
+h2
+{
+	font: normal normal 0.875em "Oxygen", sans-serif;
+	margin-top: 1px;
+	padding-left: 30px;
+}
+
+hr
+{
+	border-right: medium none; 
+	border-top: #bcbbbb 5px solid; 
+	border-left: medium none; 
+	border-bottom: medium none; 
+	height: 1px;
+	margin-left: 15px;
+}
+
+h1
+{
+	font: italic 300 1.5em "Oxygen", sans-serif;
+	text-align: right
+}
+
+h3
+{
+	font: normal 300 0.5em "Oxygen", sans-serif;
+	text-align: end
+}
+
+
+h4
+{
+	font: normal normal 0.75em "Oxygen", sans-serif;
+	text-align: center;
+}
+
+a
+{
+	font: normal normal 0.4em "Oxygen", sans-serif;
+	padding-left: 60px;
+}
+
+img
+{
+	margin: 15px 45px 5px 15px;
+}
+
+.text-muted
+{
+	color: #bcbbbb;
+}
+
+.text-shift
+{
+	margin: 20px 10px 5px 35px;
+}
+
+.text-thin
+{
+	font-weight: 100;
+}
+
+.title-logo
+{
+	margin-top: 20px;
+}
+
+@media (min-width: 500px) and (max-width: 768px)
+{
+	img
+	{
+		margin: 15px 5px 5px 15px;
+	}
+	
+	h2
+	{
+		font: normal normal 0.875em "Oxygen", sans-serif;
+		margin-top: 1px;
+		padding-left: 20px;
+	}
+	
+	h4
+	{
+		font: normal normal 0.75em "Oxygen", sans-serif;
+		text-indent: 100px;
+		text-align: left;
+	}
+
+	a
+	{
+		font: normal normal 0.4em "Oxygen", sans-serif;
+		padding-left: 60px;
+	}
+}
+
+@media (max-width: 320px)
+{
+	img
+	{
+		margin: 15px 5px 5px 15px;
+	}
+	
+	h2
+	{
+		font: normal normal 0.5em "Oxygen", sans-serif;
+		margin-top: 1px;
+		padding-left: 30px;
+	}
+	
+	h1
+	{
+		font: italic 300 1em "Oxygen", sans-serif;
+		text-align: right
+	}
+
+	h3
+	{
+		font: normal 300 0.4em "Oxygen", sans-serif;
+		text-align: end
+	}
+	
+	h4
+	{
+		font: normal normal 0.4em "Oxygen", sans-serif;
+		text-indent: 100px;
+		text-align: left;
+	}
+
+	a
+	{
+		font: normal normal 0.3em "Oxygen", sans-serif;
+		padding-left: 80px;
+	}
+
+}
+
+
